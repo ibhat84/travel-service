@@ -1,18 +1,28 @@
 # travel-service
 
-The final project requires you to build a new air travel service web application.
-The application should offer a travel service portal for customers to search for flights, view results, and book air tickets.
-Users should be required to create an account prior to booking the tickets.
-Specifically, your project consists of the development of a Java-based web application using core frameworks such as Spring Boot. 
-You will also need to implement a local database technology for flight booking and local XML files for user registration and authentication. 
-In this assignment, you will demonstrate your mastery of the following course outcomes:
+This is a travel service backend application for customers to search for 
+flights, view results, and book air tickets.
+Users are required to create an account prior to booking the tickets.
 
-• Determine best strategies for overcoming identified requirements and challenges in designing distributed web applications
+Tech Stack :
+Java Spring Boot RestAPI Microservices backend 
+OpenAPI Swagger
 
-• Integrate existing web services into web applications successfully to address user selections
+End Points:
+POST
+http://localhost:8082/api/auth/register
+http://localhost:8082/api/flights
+http://localhost:8082/api/bookings/book?userId=1&flightId=1
+GET
+http://localhost:8082/api/flights/search?departure=NYC&destination=LA
 
-• Defend the appropriateness of methodologies for efficiently interfacing web applications with local databases
+OpenAPI Documentation:
+http://localhost:8082/swagger-ui/index.html
 
-• Design logical data schemas using extensible markup language for use in distributed systems
+
+
+
+
+
 
 
